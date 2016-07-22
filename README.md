@@ -8,6 +8,12 @@ This is just a wrapper around the EXCELLENT [Dockerize](https://github.com/larsk
 
 *This is still a work in progress.*
 
+## Why? ##
+
+Automation and flexibility.
+
+The end goal is to be able to make use of a Docker container for building and configuring the binaries that will be "Dockerized" into their own image, to allow for flexibility in choice of environments.  Binaries and supporting config options can be built in the manner of a CentOS/Yum distribution, or an Ubuntu/Deb distribution easily - whatever base you wish to choose.  The Docker container offers a sandbox environment so the host machine doesn't need to have the packages installed, and using a Docker container to build the Docker images can help to automate builds.
+
 ## Run Examples ##
 
 Run with a bash shell to install and configure interactively: 
