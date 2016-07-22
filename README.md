@@ -26,7 +26,7 @@ Run automatically to Dockerize a binary easily installable in base image \(eg: w
 TODO
 ====
 
-See Issues.
+[See Issues](https://github.com/clcollins/dockerize-build-environment/issues)
 
 
 
